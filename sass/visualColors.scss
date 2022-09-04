@@ -29,20 +29,145 @@ a:visited {
     width: 235px;
     height: 106.07px;
     margin-top: 28px;
-    
+
 }
+
 .firtsPart-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, #102347 0%, #181818 100%);
-    
+
 }
+
 .item {
     margin-top: 15px;
     font-size: 24px;
 }
+
+
+
 p {
     font-size: 14px;
+}
+
+.dsMetaContainer {
+    width: 100%;
+    max-width: 900px;
+    background: $colorBg_02;
+    margin: 0 auto;
+
+}
+
+#salles {
+    padding: 40px 10px;
+}
+
+.item2 {
+    color: $colorSell;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.dsMetaContainer {
+    background: $colorBg_02;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.dsmetaBox {
+    width: 100%;
+    height: 46px;
+    color: #9AAABE;
+    border-radius: 5px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.middle_spacing {
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+.dsmeta-sales-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.tableHead {
+    height: 55px;
+    font-size: 16px;
+    color: #e9e9e9;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tBody {
+    font-size: 14px;
+    font-weight: 400;
+    color: #cfcfcf;
+    height: 74px;
+    text-align: center;
+}
+
+.tLine {
+    height: 55px;
+    border-top: 1px solid #5f6e82;
+}
+
+.dsmeta-sales-table .tBody .tLine:nth-child(odd) {
+    background-color: #242c38;
+}
+
+.dsmeta-sales-table .tBody .tLine:hover {
+    background-color: #384459;
+}
+
+.dsmeta-btn {
+    height: 45px;
+    width: 45px;
+    background: rgba(255, 107, 114, 0.1);
+    border: 1px solid #FF6B72;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.dsmeta-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mediaQ {
+    display: none;
+}
+.mediaQ02 {
+    display: none;
+}
+
+@media(min-width:576px) {
+    .mediaQ {
+        display: table-cell;
+    }
+    .secondPart-container {
+        padding: 35px;
+    }
+    .dsmeta-sales-table .tBody .tLine {
+        height: 55px;
+    }
+    .dsmeta-sales-table .tBody {
+        font-size: 18px;
+    }
+}
+@media(min-width:992px) {
+    .mediaQ02 {
+        display: table-cell;
+    }
 }
