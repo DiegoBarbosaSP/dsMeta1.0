@@ -1,5 +1,5 @@
-import vector from '../../assets/img/Vector.svg'
-import './style.css'
+import vector from '../../assets/img/Vector.svg';
+import './style.css';
 
 
 function NotificationButton() {
@@ -10,4 +10,4 @@ function NotificationButton() {
     )
 
 }
-export default NotificationButton
+export default NotificationButton;
